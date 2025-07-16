@@ -40,14 +40,14 @@ describe('<Accordion />', () => {
 		);
 
 		// TODO expect body to be toggled
-		// const whatIsRoseflixBodyText =
-		// 	"Roseflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single commercial – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!";
-		// const whatIsRoseflixHeaderEl = queryByText('What is Roseflix?');
-		// expect(queryByText(whatIsRoseflixBodyText)).toBeFalsy();
-		// if (whatIsRoseflixHeaderEl) fireEvent.click(whatIsRoseflixHeaderEl);
-		// expect(queryByText(whatIsRoseflixBodyText)).toBeTruthy();
-		// if (whatIsRoseflixHeaderEl) fireEvent.click(whatIsRoseflixHeaderEl);
-		// expect(queryByText(whatIsRoseflixBodyText)).toBeFalsy();
+		// const whatIsKdrama linksBodyText =
+		// 	"Kdrama links is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single commercial – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!";
+		// const whatIsKdrama linksHeaderEl = queryByText('What is Roseflix?');
+		// expect(queryByText(whatIsKdrama linksBodyText)).toBeFalsy();
+		// if (whatIsKdrama linksHeaderEl) fireEvent.click(whatIsKdrama linksHeaderEl);
+		// expect(queryByText(whatIsKdrama linksBodyText)).toBeTruthy();
+		// if (whatIsKdrama linksHeaderEl) fireEvent.click(whatIsKdrama linksHeaderEl);
+		// expect(queryByText(whatIsKdrama linksBodyText)).toBeFalsy();
 		expect(container.firstChild).toMatchSnapshot();
 	});
 });
