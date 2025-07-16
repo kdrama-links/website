@@ -113,7 +113,7 @@ function HeaderContainer({
 										Manage Profiles
 									</Header.MenuOption>
 									<Header.MenuOption className="no-img" onClick={() => signout()}>
-										Sign out of Roseflix
+										Sign out of Kdrama Links
 									</Header.MenuOption>
 								</Header.Menu>
 							</Header.Dropdown>
